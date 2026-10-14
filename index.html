@@ -19,7 +19,7 @@
 .horse-runner{position:absolute;left:42px;top:1px;height:39px;display:flex;align-items:center;gap:5px;z-index:3;transform:translateX(0);font-size:1.8rem;white-space:nowrap}
 .horse-runner .jockey{font-size:1.3rem;filter:drop-shadow(0 2px 2px #0007)}
 .race-lane.racing .horse-runner{animation:horseSprint var(--race-time,4.5s) cubic-bezier(.2,.65,.3,1) forwards}
-@keyframes horseSprint{0%{transform:translateX(0)}10%{transform:translateX(3vw)}40%{transform:translateX(25vw)}75%{transform:translateX(52vw)}100%{transform:translateX(var(--race-distance,60vw)}}
+@keyframes horseSprint{0%{transform:translateX(0)}10%{transform:translateX(3vw)}40%{transform:translateX(25vw)}75%{transform:translateX(52vw)}100%{transform:translateX(var(--race-distance,60vw))}}
 .race-finish{position:absolute;right:13px;top:0;bottom:0;width:15px;z-index:1;background:repeating-linear-gradient(45deg,#fff 0 6px,#101827 6px 12px)}
 .race-form{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;padding:14px}
 .race-field{display:flex;flex-direction:column;gap:6px;color:#aebfdf;font-size:.75rem;font-weight:800}.race-field select,.race-field input{min-width:0;width:100%;padding:12px;background:#091326;border:1px solid #405578;border-radius:11px;color:#fff;min-height:44px}
